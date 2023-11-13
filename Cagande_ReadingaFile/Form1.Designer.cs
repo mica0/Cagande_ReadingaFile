@@ -42,6 +42,7 @@
             this.lvShowText.Size = new System.Drawing.Size(478, 305);
             this.lvShowText.TabIndex = 0;
             this.lvShowText.UseCompatibleStateImageBehavior = false;
+            this.lvShowText.View = System.Windows.Forms.View.List;
             // 
             // btnOpen
             // 
