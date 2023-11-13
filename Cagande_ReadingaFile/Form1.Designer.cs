@@ -45,24 +45,26 @@
             // 
             // btnOpen
             // 
+            this.btnOpen.BackColor = System.Drawing.Color.RosyBrown;
             this.btnOpen.Font = new System.Drawing.Font("Sylfaen", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOpen.ForeColor = System.Drawing.Color.Transparent;
             this.btnOpen.Location = new System.Drawing.Point(211, 351);
             this.btnOpen.Name = "btnOpen";
             this.btnOpen.Size = new System.Drawing.Size(115, 52);
             this.btnOpen.TabIndex = 1;
             this.btnOpen.Text = "Open";
-            this.btnOpen.UseVisualStyleBackColor = true;
+            this.btnOpen.UseVisualStyleBackColor = false;
             this.btnOpen.Click += new System.EventHandler(this.btnOpen_Click);
             // 
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
-
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightPink;
             this.ClientSize = new System.Drawing.Size(534, 439);
             this.Controls.Add(this.btnOpen);
             this.Controls.Add(this.lvShowText);
